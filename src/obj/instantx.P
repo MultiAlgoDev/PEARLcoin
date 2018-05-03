@@ -1,0 +1,34 @@
+obj/instantx.o: instantx.cpp uint256.h sync.h threadsafety.h net.h \
+ compat.h core.h serialize.h allocators.h support/cleanse.h version.h \
+ clientversion.h script.h keystore.h key.h pubkey.h hash.h \
+ crypto/ripemd160.h crypto/sha256.h bignum.h util.h tinyformat.h \
+ stealth.h limitedmap.h mruset.h netbase.h protocol.h chainparams.h \
+ base58.h main.h txmempool.h scrypt.h hashblock.h sph_blake.h sph_types.h \
+ sph_bmw.h sph_groestl.h sph_jh.h sph_keccak.h sph_skein.h sph_luffa.h \
+ sph_cubehash.h sph_shavite.h sph_simd.h sph_echo.h instantx.h \
+ activemasternode.h masternode.h init.h wallet.h walletdb.h db.h \
+ crypter.h ui_interface.h darksend.h masternodeman.h \
+ masternode-payments.h darksend-relay.h spork.h txdb.h txdb-leveldb.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/db.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/iterator.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/slice.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/status.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/options.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/write_batch.h
+instantx.cpp uint256.h sync.h threadsafety.h net.h :
+ compat.h core.h serialize.h allocators.h support/cleanse.h version.h :
+ clientversion.h script.h keystore.h key.h pubkey.h hash.h :
+ crypto/ripemd160.h crypto/sha256.h bignum.h util.h tinyformat.h :
+ stealth.h limitedmap.h mruset.h netbase.h protocol.h chainparams.h :
+ base58.h main.h txmempool.h scrypt.h hashblock.h sph_blake.h sph_types.h :
+ sph_bmw.h sph_groestl.h sph_jh.h sph_keccak.h sph_skein.h sph_luffa.h :
+ sph_cubehash.h sph_shavite.h sph_simd.h sph_echo.h instantx.h :
+ activemasternode.h masternode.h init.h wallet.h walletdb.h db.h :
+ crypter.h ui_interface.h darksend.h masternodeman.h :
+ masternode-payments.h darksend-relay.h spork.h txdb.h txdb-leveldb.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/db.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/iterator.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/slice.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/status.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/options.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/write_batch.h :

@@ -1,0 +1,6 @@
+obj/crypto/sha512.o: crypto/sha512.cpp \
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/sha512.h \
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/common.h
+crypto/sha512.cpp :
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/sha512.h :
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/common.h :

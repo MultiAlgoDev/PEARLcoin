@@ -1,0 +1,6 @@
+obj/crypto/hmac_sha512.o: crypto/hmac_sha512.cpp \
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/hmac_sha512.h \
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/sha512.h
+crypto/hmac_sha512.cpp :
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/hmac_sha512.h :
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/sha512.h :

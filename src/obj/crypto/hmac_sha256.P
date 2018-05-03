@@ -1,0 +1,6 @@
+obj/crypto/hmac_sha256.o: crypto/hmac_sha256.cpp \
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/hmac_sha256.h \
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/sha256.h
+crypto/hmac_sha256.cpp :
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/hmac_sha256.h :
+ /home/scribe/Desktop/dev1/PEARL/src/crypto/sha256.h :

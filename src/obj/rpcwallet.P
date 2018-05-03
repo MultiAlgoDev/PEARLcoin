@@ -1,0 +1,38 @@
+obj/rpcwallet.o: rpcwallet.cpp base58.h chainparams.h bignum.h \
+ serialize.h allocators.h support/cleanse.h version.h clientversion.h \
+ uint256.h util.h tinyformat.h pubkey.h hash.h crypto/ripemd160.h \
+ crypto/sha256.h script.h keystore.h key.h sync.h threadsafety.h \
+ stealth.h smessage.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/db.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/iterator.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/slice.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/status.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/options.h \
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/write_batch.h \
+ net.h compat.h core.h limitedmap.h mruset.h netbase.h protocol.h db.h \
+ wallet.h walletdb.h crypter.h main.h txmempool.h scrypt.h hashblock.h \
+ sph_blake.h sph_types.h sph_bmw.h sph_groestl.h sph_jh.h sph_keccak.h \
+ sph_skein.h sph_luffa.h sph_cubehash.h sph_shavite.h sph_simd.h \
+ sph_echo.h ui_interface.h lz4/lz4.h rpcserver.h rpcprotocol.h \
+ json/json_spirit_reader_template.h json/json_spirit_value.h \
+ json/json_spirit_error_position.h json/json_spirit_utils.h \
+ json/json_spirit_writer_template.h init.h
+rpcwallet.cpp base58.h chainparams.h bignum.h :
+ serialize.h allocators.h support/cleanse.h version.h clientversion.h :
+ uint256.h util.h tinyformat.h pubkey.h hash.h crypto/ripemd160.h :
+ crypto/sha256.h script.h keystore.h key.h sync.h threadsafety.h :
+ stealth.h smessage.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/db.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/iterator.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/slice.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/status.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/options.h :
+ /home/scribe/Desktop/dev1/PEARL/src/leveldb/include/leveldb/write_batch.h :
+ net.h compat.h core.h limitedmap.h mruset.h netbase.h protocol.h db.h :
+ wallet.h walletdb.h crypter.h main.h txmempool.h scrypt.h hashblock.h :
+ sph_blake.h sph_types.h sph_bmw.h sph_groestl.h sph_jh.h sph_keccak.h :
+ sph_skein.h sph_luffa.h sph_cubehash.h sph_shavite.h sph_simd.h :
+ sph_echo.h ui_interface.h lz4/lz4.h rpcserver.h rpcprotocol.h :
+ json/json_spirit_reader_template.h json/json_spirit_value.h :
+ json/json_spirit_error_position.h json/json_spirit_utils.h :
+ json/json_spirit_writer_template.h init.h :

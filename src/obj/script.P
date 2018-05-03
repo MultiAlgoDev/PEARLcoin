@@ -1,0 +1,16 @@
+obj/script.o: script.cpp script.h keystore.h key.h allocators.h \
+ support/cleanse.h pubkey.h hash.h uint256.h serialize.h version.h \
+ clientversion.h crypto/ripemd160.h crypto/sha256.h sync.h threadsafety.h \
+ bignum.h util.h tinyformat.h stealth.h main.h core.h txmempool.h net.h \
+ compat.h limitedmap.h mruset.h netbase.h protocol.h chainparams.h \
+ scrypt.h hashblock.h sph_blake.h sph_types.h sph_bmw.h sph_groestl.h \
+ sph_jh.h sph_keccak.h sph_skein.h sph_luffa.h sph_cubehash.h \
+ sph_shavite.h sph_simd.h sph_echo.h crypto/sha1.h
+script.cpp script.h keystore.h key.h allocators.h :
+ support/cleanse.h pubkey.h hash.h uint256.h serialize.h version.h :
+ clientversion.h crypto/ripemd160.h crypto/sha256.h sync.h threadsafety.h :
+ bignum.h util.h tinyformat.h stealth.h main.h core.h txmempool.h net.h :
+ compat.h limitedmap.h mruset.h netbase.h protocol.h chainparams.h :
+ scrypt.h hashblock.h sph_blake.h sph_types.h sph_bmw.h sph_groestl.h :
+ sph_jh.h sph_keccak.h sph_skein.h sph_luffa.h sph_cubehash.h :
+ sph_shavite.h sph_simd.h sph_echo.h crypto/sha1.h :
